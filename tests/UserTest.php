@@ -26,7 +26,7 @@ class UserTest extends PHPUnit_Framework_TestCase
     public function testGetUserByLogin()
     {
         $result = $this->user->getUserByLogin('maxx');
-        $this->assertEquals('Maxim Maximov', $result);
+        $this->assertEquals('Elisa', $result);
     }
 
 
